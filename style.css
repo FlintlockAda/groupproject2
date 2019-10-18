@@ -6,8 +6,9 @@
 body {
 	background: #444;
 	font-family: Arial, Verdana, Helvetica, sans-serif;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
+    
 }
 
 /* HEADER */
@@ -45,7 +46,8 @@ nav li {
 	font-weight: bold;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 14px 30px;
+
 	text-decoration: none;
 	box-shadow: 8px 0 16px 0 rgba(0,0,0,1.0);
 }
@@ -89,8 +91,9 @@ main {
 }
 
 h2 {
-	font-size: 50px;
-	padding-top: 150px;
+	font-size: 45px;
+	padding: 170px 50px 0 50px;
+    height: 130px;
 }
 
 main div {
@@ -134,4 +137,38 @@ footer {
 /* Other Devices */
 @media only screen and (max-width: 900px) {
 	
+}
+
+#right-button {
+    background-color: lightblue;
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    margin-top: 100px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+#left-button {
+    background-color: lightblue;
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    margin-top: 100px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+#next-question {
+    background-color: lightslategrey;
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    margin-top: 100px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+button:hover {
+    color: purple;
 }
