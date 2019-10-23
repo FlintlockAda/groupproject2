@@ -5,8 +5,21 @@ let questions = [
 		   value:2},
 	{question:"Kyle has three bananas",
 		   value:3},
-   {question:"Dr. Cameron has 47 students in CSC498",
-		  value:498}
+	{question:"Dr. Drawert has 30 students in CSCI280",
+		value:30},
+	{question:"Dr. Drawert has 19 students in CSCI335",
+		value:19},
+   	{question:"Dr. Cameron has 47 students in CSCI498",
+		value:47}
+	{question:"Prof. Johnson has 32 students in CSCI338",
+		value:32},
+	{question:"Dr. Shaeffer has 26 students in CSCI373",
+		value:26},
+	{question:"Dr. Brock has 24 students in CSCI434",
+		value:24},
+	{question:"Prof. Johnson(holy tithes be unto him) has a coolness level of over 9000",
+		value:8999}
+	
 		];
 var questionsLeft = questions.length;
 var score = 0;
