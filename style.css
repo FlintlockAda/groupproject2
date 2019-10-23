@@ -8,7 +8,7 @@ body {
 	font-family: Arial, Verdana, Helvetica, sans-serif;
 	margin: 0 auto;
 	padding: 0;
-    
+
 }
 
 /* HEADER */
@@ -87,7 +87,7 @@ a:hover:not(.active) {
 
 /* MAIN */
 main {
-	
+
 }
 
 h2 {
@@ -145,7 +145,7 @@ footer {
 
 /* Other Devices */
 @media only screen and (max-width: 900px) {
-	
+
 }
 
 #right-button {
@@ -156,6 +156,7 @@ footer {
     margin-top: 100px;
     font-family: cursive;
     font-size: 18px;
+		animation: shadow-pulse 1s 1;
 }
 
 #left-button {
@@ -166,6 +167,7 @@ footer {
     margin-top: 100px;
     font-family: cursive;
     font-size: 18px;
+		animation: shadow-pulse 1s 1;
 }
 
 #next-question {
