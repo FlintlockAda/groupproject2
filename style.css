@@ -167,7 +167,9 @@ footer {
     margin-top: 100px;
     font-family: cursive;
     font-size: 18px;
-		animation: shadow-pulse 1s 1;
+		transition: all 2s cubic-bezier(0.310, 0.440, 0.445, 1.650);
+
+
 }
 
 #left-button {
@@ -178,8 +180,9 @@ footer {
     margin-top: 100px;
     font-family: cursive;
     font-size: 18px;
-		animation: shadow-pulse 1s 1;
+		transition: all 2s cubic-bezier(0.310, 0.440, 0.445, 1.650);
 }
+
 
 #next-question {
     background-color: lightslategrey;
@@ -188,8 +191,14 @@ footer {
     border-radius: 15px;
     font-family: cursive;
     font-size: 18px;
+		transition: all 1s cubic-bezier(0.40, 0.50, 0.445, 1.650);
 }
 
 button:hover {
     color: purple;
+		animation: shadow-pulse 0.5s 1;
+		 /*animation: shadow-pulse 1s 1;*/
+}
+button:active {
+	transform: scale(3);
 }
